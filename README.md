@@ -42,8 +42,23 @@ This project provided practical experience with packet capture, DNS investigatio
 
 Evidence
 
-Screenshots documenting the DNS analysis, TCP handshake, and TLS traffic will be included in this repository.
+DNS Analysis
 
+TCP Three-Way Handshake
+
+The TCP handshake was examined by identifying SYN, SYN-ACK, and ACK packets.
+
+* TCP SYN
+* TCP SYN-ACK
+* TCP ACK
+
+TLS Traffic
+
+TLS handshake messages and encrypted application data were observed.
+
+* TLS Client Hello
+* TLS Server Hello
+* TLS Application Data
 Disclaimer
 
 This project was performed for educational purposes using traffic generated from my own system.
